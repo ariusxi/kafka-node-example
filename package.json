@@ -1,0 +1,15 @@
+{
+  "name": "kafka-node-example",
+  "version": "1.0.0",
+  "description": "An example of an implementation of the Apache Kafka in Node.js",
+  "main": "src/index.js",
+  "repository": "git@github.com:ariusxi/kafka-node-example.git",
+  "author": "Alef Felix",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "kafkajs": "^1.15.0"
+  }
+}
